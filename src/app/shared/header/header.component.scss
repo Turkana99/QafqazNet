@@ -1,0 +1,84 @@
+.header-wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px 0;
+  background-color: #06060661;
+  backdrop-filter: blur(6px );
+  z-index: 900;
+
+  .logo-wrapper {
+    width: 140px;
+    img {
+      width: 100%;
+    }
+  }
+}
+nav ul {
+  font-family: PoppinsMedium;
+  height: 50px;
+
+  li {
+    cursor: pointer;
+    height: 100%;
+    &::after {
+      content: "";
+      position: relative;
+      top: -8px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 0%;
+      height: 2px;
+      background-color: white;
+      transition: width 250ms linear;
+    }
+
+    &:hover:not(&:has(> select))::after {
+      content: "";
+      width: 100%;
+    }
+    &:has(> select) {
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+
+      select {
+        background-color: transparent;
+        border: none;
+        color: white;
+
+        option {
+          color: #060606;
+        }
+      }
+    }
+    a {
+      display: flex;
+      height: 100%;
+      padding: 20px;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.scroll-watcher {
+  height: 6px;
+  position: fixed;
+  transform-origin: left;
+  top: 0;
+  z-index: 1000;
+  background-color: #46c7f4;
+  width: 100%;
+  scale: 0 1;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}

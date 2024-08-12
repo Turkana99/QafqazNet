@@ -1,0 +1,53 @@
+.card-wrapper {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  background-color: #171717;
+
+  .card-info {
+    padding: 100px 0 100px 100px;
+    width: 100%;
+
+    .card-info-title {
+      text-transform: capitalize;
+      font-family: PoppinsMedium;
+      color: white;
+      font-size: 70px;
+    }
+
+    .card-info-description {
+      color: #6f6f6f;
+      font-family: PoppinsRegular;
+      font-size: 36px;
+    }
+  }
+  .card-content {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      filter: blur(6px);
+      height: 100%;
+      max-width: 100%;
+      opacity: 0;
+      transform: translateY(100px);
+      transform: rotate(30deg);
+      animation: service-image-fade-in linear;
+      animation-timeline: view();
+      animation-range: 400px 80vh;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes service-image-fade-in {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        transform: rotate(0);
+        filter: blur(0);
+      }
+    }
+  }
+}
