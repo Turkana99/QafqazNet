@@ -1,0 +1,64 @@
+footer {
+  margin-top: 50px;
+  padding: 70px 70px 15px 70px;
+  color: white;
+  font-family: PoppinsRegular;
+  background-image: linear-gradient(0deg, rgb(0 0 0 / 75%), rgb(0 0 0 / 18%)),
+    url(/images/footer/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-wrapper {
+  cursor: pointer;
+  width: 140px;
+  img {
+    width: 100%;
+  }
+}
+
+.footer-icon-wrapper {
+  ul {
+    gap: 20px;
+    li {
+      padding: 10px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+    }
+  }
+}
+
+.unit {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  & > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    li {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+    }
+  }
+}
+
+.unit:has(.logo-wrapper) {
+  justify-content: space-between;
+}
+
+.global-ul {
+  gap: 50px;
+  border-bottom: 1px solid #757575;
+  padding-bottom: 45px;
+}

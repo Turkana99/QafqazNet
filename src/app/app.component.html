@@ -42,4 +42,51 @@
     </div>
   </div>
 </section>
-<section class="our-projects"><h1 class="title">Our projects</h1></section>
+<section class="our-projects">
+  <h1 class="title">Our projects</h1>
+
+  <div class="projects-wrapper">
+    @for (column of ourProjects; track $index) {
+
+    <div class="project-column">
+      @for (item of column; track $index) {
+      <div class="project-item">
+        <img [src]="item.image" alt="" />
+      </div>
+      }
+    </div>
+    }
+
+    <!-- <div class="project-column">
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+    </div>
+    <div class="project-column">
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+    </div>
+    <div class="project-column">
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+    </div>
+    <div class="project-column">
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+    </div>
+    <div class="project-column">
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+    </div>
+    <div class="project-column">
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+      <div class="project-item">a</div>
+    </div> -->
+  </div>
+</section>
+<app-footer></app-footer>
