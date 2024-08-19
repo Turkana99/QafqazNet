@@ -11,19 +11,23 @@
     .card-info-title {
       text-transform: capitalize;
       font-family: PoppinsMedium;
-      color: white;
+      color: #46C7F4;
+      font-weight: bold;
       font-size: 70px;
     }
 
     .card-info-description {
-      color: #6f6f6f;
+      color: white;
+      opacity: 0.6;
+      font-weight: lighter!important;
       font-family: PoppinsRegular;
-      font-size: 36px;
+      font-size: 20px;
+      line-height: 40px;
     }
   }
   .card-content {
     width: 100%;
-    padding: 50px;
+    padding: 100px 0 100px 100px;
     display: flex;
     align-items: center;
     justify-content: center;

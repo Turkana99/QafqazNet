@@ -9,52 +9,46 @@ export class AppComponent {
 
   ourServices: { title: string; description: string; imageUrl: string }[] = [
     {
-      title: 'Internet and data services',
+      title: 'Software development',
       description:
-        'Qafqaznet LLC offers high-speed internet connection, intranet organization, company internal internet, data center service.',
-      imageUrl: 'Frame 1.svg',
+        'We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. "Qafqaznet LLC" employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales!',
+      imageUrl: 'ser1.svg',
     },
     {
-      title: 'Communication and TV service',
+      title: '24/7 Technical Support Services',
       description:
-        'Providing your office with modern means of communication is our main task.',
-      imageUrl: 'Frame 2.svg',
+        'We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. "Qafqaznet LLC" employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales! A domain name is your website"s address on the Internet. ',
+      imageUrl: 'ser2.svg',
     },
     {
-      title: 'Vehicle tracking system (GPS)',
+      title: 'Security Solutions',
       description:
-        'Our navigation units connect to the state systems of all vehicles and allow displaying information about traffic jams...',
-      imageUrl: 'Frame 3.svg',
+        'We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. "Qafqaznet LLC" employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales! A domain name is your website"s address on the Internet.',
+      imageUrl: 'ser3.svg',
     },
     {
-      title: 'Service of IT equipment',
+      title: 'Telecommunication Services',
       description:
-        'One of the activities of our company is the supply of IT equipment. Today, any company cannot exist without servers, computers and...',
-      imageUrl: 'Frame 4.svg',
+        'We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. "Qafqaznet LLC" employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales! A domain name is your website"s address on the Internet. ',
+      imageUrl: 'ser4.svg',
     },
     {
-      title: 'Web programming and application programming',
+      title: 'Sale of equipment',
       description:
-        'We offer web and application programming services (site, license, domain, hosting sales).',
-      imageUrl: 'Frame 5.svg',
+        'We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. "Qafqaznet LLC" employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales! A domain name is your website"s address on the Internet. ',
+      imageUrl: 'ser5_1.svg',
     },
     {
-      title: 'Security - control systems',
+      title: 'IT-Consulting',
       description:
-        'Video-surveillance systems are designed to detect, repeat and account for everything that happens in the field of coverage of the video...',
-      imageUrl: 'Frame 6.svg',
+        'We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. "Qafqaznet LLC" employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales! A domain name is your website"s address on the Internet.',
+      imageUrl: 'ser6_1.svg',
     },
     {
       title: 'Infrastructure and communication lines',
       description:
-        "'Qafqaznet LLC' specialists are ready to implement a project of any complexity for you",
-      imageUrl: 'Frame 7.svg',
-    },
-    {
-      title: 'Printer service',
-      description:
-        'If your printer needs a cartridge, we recommend contacting the reliable Qafqaznet LLC company with extensive experience and high-quality...',
-      imageUrl: 'Frame 8.svg',
+        "We offer VEB and application programming services (sales of licenses, domains, hostings). Using the services of Qafqaznet LLC, you can optimize telecommunications expenses, as well as ensure safe and uninterrupted operation of servers and telecommunications equipment. Your employees and customers get quality mobile communication and reliable access to the Internet at any time. Website development is a creative process that requires the ability to think in a unique way and create the most unique products. 'Qafqaznet LLC' employs professional programmers with considerable experience in the field of website development. Therefore, you are guaranteed to get a site that actually sells your product.Are you looking for a good programmer to create a website, develop software modules or solve other web programming issues? Then call us. We will help you achieve great results in increasing sales! A domain name is your website's address on the Internet.",
+      imageUrl: 'ser7_1.svg',
     },
   ];
 
