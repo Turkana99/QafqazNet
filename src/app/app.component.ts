@@ -54,104 +54,104 @@ export class AppComponent {
 
   ourPartners: { image: string }[] = [
     {
-      image: '/images/partners/googleplay.png',
+      image: 'assets/images/partners/googleplay.png',
     },
     {
-      image: '/images/partners/klarna.svg',
+      image: 'assets/images/partners/klarna.svg',
     },
     {
-      image: '/images/partners/unionpay.png',
+      image: 'assets/images/partners/unionpay.png',
     },
     {
-      image: '/images/partners/americanexpress.png',
+      image: 'assets/images/partners/americanexpress.png',
     },
     {
-      image: '/images/partners/westernunion.svg',
+      image: 'assets/images/partners/westernunion.svg',
     },
     {
-      image: '/images/partners/applepay.svg',
+      image: 'assets/images/partners/applepay.svg',
     },
     {
-      image: '/images/partners/payoneer.svg',
+      image: 'assets/images/partners/payoneer.svg',
     },
   ];
 
   ourProjects: any[] = [
     [
       {
-        image: '/images/projects/adore.svg',
+        image: 'assets/images/projects/adore.svg',
       },
       {
-        image: '/images/projects/agrarco.webp',
+        image: 'assets/images/projects/agrarco.webp',
       },
       {
-        image: '/images/projects/barattson.png',
-      },
-    ],
-    [
-      {
-        image: '/images/projects/eas.webp',
-      },
-      {
-        image: '/images/projects/egehospital.png',
-      },
-      {
-        image: '/images/projects/fmsLogo.png',
+        image: 'assets/images/projects/barattson.png',
       },
     ],
     [
       {
-        image: '/images/projects/gesco.png',
+        image: 'assets/images/projects/eas.webp',
       },
       {
-        image: '/images/projects/bagisaglamliq.png',
+        image: 'assets/images/projects/egehospital.png',
       },
       {
-        image: '/images/projects/moongroup.png',
-      },
-    ],
-    [
-      {
-        image: '/images/projects/prosol.png',
-      },
-      {
-        image: '/images/projects/qafqazhotel.png',
-      },
-      {
-        image: '/images/projects/aqrokimya.svg',
+        image: 'assets/images/projects/fmsLogo.png',
       },
     ],
     [
       {
-        image: '/images/projects/biyan.svg',
+        image: 'assets/images/projects/gesco.png',
       },
       {
-        image: '/images/projects/SL.webp',
+        image: 'assets/images/projects/bagisaglamliq.png',
       },
       {
-        image: '/images/projects/ordel.png',
-      },
-    ],
-    [
-      {
-        image: '/images/projects/payim.png',
-      },
-      {
-        image: '/images/projects/mingachevir-textile-logo.png',
-      },
-      {
-        image: '/images/projects/kosem.jpeg',
+        image: 'assets/images/projects/moongroup.png',
       },
     ],
     [
       {
-        image: '/images/projects/qebelend.png',
+        image: 'assets/images/projects/prosol.png',
       },
       {
-        image: '/images/projects/redcrescent.png',
+        image: 'assets/images/projects/qafqazhotel.png',
       },
       {
-        image: '/images/projects/skyservice.svg',
+        image: 'assets/images/projects/aqrokimya.svg',
+      },
+    ],
+    [
+      {
+        image: 'assets/images/projects/biyan.svg',
+      },
+      {
+        image: 'assets/images/projects/SL.webp',
+      },
+      {
+        image: 'assets/images/projects/ordel.png',
+      },
+    ],
+    [
+      {
+        image: 'assets/images/projects/payim.png',
+      },
+      {
+        image: 'assets/images/projects/mingachevir-textile-logo.png',
+      },
+      {
+        image: 'assets/images/projects/kosem.jpeg',
+      },
+    ],
+    [
+      {
+        image: 'assets/images/projects/qebelend.png',
+      },
+      {
+        image: 'assets/images/projects/redcrescent.png',
+      },
+      {
+        image: 'assets/images/projects/skyservice.svg',
       },
     ],
   ];
